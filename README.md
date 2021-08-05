@@ -18,8 +18,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 PATH = '/Users/adammcmurchie/2021/selenium/chromedriver'
 driver = webdriver.Chrome(PATH)
 ```
-
-
+ 
 # Elements  
 
 Have: 
