@@ -50,3 +50,11 @@ find_elements_by_class_name
 ...
 ```
 
+# Tips 
+
+## Useful functions   
+  
+  
+```python  
+print(driver.page_source)
+```

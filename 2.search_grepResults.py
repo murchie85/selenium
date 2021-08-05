@@ -19,13 +19,14 @@ search = driver.find_element_by_name('s')
 
 #-----------------FILL IN FORM 
 search.send_keys('test')
-search.send_keys(keys.RETURN)
+search.send_keys(Keys.RETURN)
 
-
+# PRINT SOURCE
+print(driver.page_source)
 
 
 #-----------------SLEEP
-time.sleep(2)
+#time.sleep(2)
 
 
 driver.quit()
